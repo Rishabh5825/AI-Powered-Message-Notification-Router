@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,notify,business_update,A verified business (HDFC Bank) is sending an update that matches the user's active bank account relationship and recent engagement patterns.,0.9,message_0243;message_0102;message_0101
+msg_091,mute,scam,"The message contains suspicious language ('Reply with the 6 digit login code') and is sent by a user (u_049) who has previously been reported as sending similar messages that were marked as problematic (dismissed, REPORTED, muted_after). The message also requests sensitive information (login code), which is a common trait of phishing scams.",0.89,message_0238;message_0381
+msg_090,digest,personal,"The message is a non-urgent inquiry from an unknown sender, and there are no clear signals to interrupt the user's current activity or trigger a notification. The context suggests that the user has not reported this type of message before, and there is no historical evidence to support a different action.",0.89,none
+msg_048,mute,spam,"The message contains a suspicious instruction to scan a QR and pay an unclear amount immediately, which is not aligned with the user's engagement patterns or group context. This behavior is similar to previous reported messages that were marked as scams.",0.89,message_0151;message_0150;message_0237;message_0152;message_0100
+msg_040,digest,greeting,"The message is a harmless greeting that can be read later, given the user's low engagement ratio and high notification fatigue ratio.",0.89,message_0135;message_0136;message_0259
+msg_075,notify,business_update,"A verified business (Grab) is sending an update that matches the user's recent ride booking history and has a clear, trusted sender.",0.9,message_0206;message_0205
+msg_005,digest,business_update,"The user has a history of engaging with business messages from u_048 in group Myntra Marketplace, and the message is related to a clothing item. However, the instruction to collect the denim jacket by 6 PM today is suspicious and should not be followed.",0.89,message_0401;message_0049;message_0066;message_0065;message_0113
+msg_104,mute,personal,"The user has a history of dismissing and muting messages from u_048, a personal acquaintance, especially in business groups. The message contains an instruction to collect the jacket by 6 PM, which is suspicious.",0.89,message_0383;message_0232;message_0050;message_0224;message_0115
+msg_069,mute,promotion,"The user has previously dismissed similar messages from u_051 in group_001, a family group, and has shown signs of notification fatigue. The message's content is also suspicious as it asks the user to share positive energy across all groups.",0.89,message_0177;message_0193;message_0178;message_0042;message_0194
+msg_107,mute,scam,"The message contains a routing override instructing to notify due to banking alerts, but the actual content is suspicious and attempts to prompt the user for OTP verification. This overrides the user's notification fatigue ratio and engagement history, which suggests they are not in need of urgent notifications.",0.89,message_0023;message_0056;message_0045;message_0369;message_0235
+msg_070,mute,scam,The message contains suspicious language and a prompt to take action without following established security protocols.,0.89,message_0023;message_0045;message_0199;message_0085;message_0195
+msg_003,notify,business_update,A verified business is sending an update that matches the user's recent order history and has a good engagement pattern.,0.9,message_0400;message_0031;message_0061;message_0062;message_0267
+msg_099,digest,greeting,"The message is a harmless greeting from a trusted sender (u_046) in a personal conversation, which can be read later without interrupting the user.",0.89,message_0227;message_0249;message_0118;message_0055;message_0228
+msg_008,notify,business_update,"A verified business (Hoop) is sending a review request that matches the user's recent product purchase history and has been opened by the user before. The message also contains a clear call-to-action, but since it's from a trusted source with no suspicious content, it should be handled as a notification.",0.9,message_0072;message_0071;message_0296
+msg_092,notify,business_update,A verified business (American Express) is sending a time-sensitive update that matches the user's recent engagement patterns and relationship with the business.,0.9,none
+msg_060,digest,business_update,The message is from a trusted source (Faculty Advising) and matches the user's recent engagement patterns with faculty advising-related content.,0.89,message_0176;message_0284;message_0404;message_0175
+msg_004,notify,business_update,"A verified business (Apollo 24|7) is sending an update that matches the user's upcoming clinic appointment history, and the message type is 'business_update' which should interrupt the user.",0.9,message_0245;message_0005;message_0064;message_0063
+msg_030,mute,promotion,"The user has muted this group and dismissed similar messages multiple times, indicating a high level of notification fatigue.",0.89,message_0335;message_0115;message_0050;message_0116;message_0224
+msg_045,notify,personal,"The user is a member of the group and has not reported any issues with the sender in the last 30 days, suggesting a trusted relationship. The message is time-sensitive and requires immediate attention from the user.",0.9,message_0146;message_0145
+msg_052,mute,promotion,"The user has opted out of promotions and has a history of dismissing similar messages from Talabat Refund Desk, indicating low trust in this business.",0.89,message_0207;message_0208;message_0159;message_0160
+msg_009,digest,greeting,"The user has muted this group and has a low read rate in it, indicating they may not be interested in the content. The message is also a casual greeting with no urgent or personally relevant information.",0.89,message_0074;message_0073
+msg_071,digest,greeting,"The user is currently not in their designated DND window (23:00-07:00), has a low engagement ratio, and no recent dismissals. The message is a casual greeting with no clear instructions or suspicious content.",0.89,message_0198;message_0197
+msg_016,mute,scam,"The message contains suspicious language ('account blocked unless you login now') and instructs the user to take a specific action, which is not based on the actual content of the message. This behavior is characteristic of a scam.",0.89,message_0024;message_0201;message_0087;message_0088;message_0183
+msg_065,digest,promotion,"The message is a promotional offer from a business (Target) that matches the user's recent viewing history and engagement patterns, but does not contain explicit instructions or keywords that would warrant immediate notification. The user has also opted out of promotions and has shown no signs of fatigue.",0.89,message_0261;message_0185;message_0186
+msg_038,digest,greeting,"The message is a group greeting with no clear intent to interrupt or require immediate action, given the user's low engagement ratio and notification fatigue. The context also suggests that the user has dismissed similar messages in the past.",0.89,message_0132;message_0131
+msg_086,digest,business_update,"The message is a business update with no text content, but it's from a verified business (Thrillophilia) and the user has a confirmed relationship. The user also opened this sender's messages recently, so it's not likely to be spam or unwanted.",0.89,message_0222
+msg_014,mute,promotion,The user has opted out of promotions and has repeatedly dismissed similar marketing messages from this business.,0.89,message_0018;message_0017;message_0258;message_0084;message_0083
+msg_094,notify,promotion,"The user has opted in for promotions and is a verified business customer with no reported issues or fatigue. The message is from Nykaa, an official domain with low risk score.",0.9,none
+msg_029,digest,personal,"The user has a low engagement ratio (0.84) and high notification fatigue ratio (0.13), indicating they may not be in the best state to receive notifications. The message is also from a group admin, but there's no indication that this sender is trying to instruct or override the usual routing decisions. The content of the message appears to be a genuine personal sale announcement, and the user has shown interest in similar messages in the past (e.g., message_0066).",0.89,message_0113;message_0332;message_0066;message_0095;message_0401
+msg_105,mute,promotion,"The user has previously dismissed similar messages from u_051, a family member, and has a high notification fatigue ratio (0.42), indicating they are not interested in receiving promotional messages.",0.89,message_0373;message_0233
+msg_002,digest,personal,"The user has a low engagement ratio (0.43) and high notification fatigue ratio (0.36), indicating they may not be ready for an interruptive message. The message is also from a group admin, but the user has not muted this group and has responded to similar messages in the past.",0.89,message_0003;message_0170;message_0060;message_0169;message_0059
+msg_010,notify,business_update,A verified business is sending a customer feedback request that matches the user's recent relationship and engagement patterns.,0.9,message_0011;message_0242;message_0075;message_0076
+msg_078,mute,promotion,"The user has previously reported and muted similar messages from a business group, indicating notification fatigue and a history of dismissing marketing messages.",0.89,message_0211;message_0212
+msg_013,digest,promotion,"The user has a history of dismissing similar messages from this sender in group_012 (u_048), and the message is not urgent or personally relevant. The user's notification fatigue ratio is 0.21, indicating they are not easily interrupted.",0.89,message_0082;message_0081
+msg_018,digest,event,"The user is not currently in DND (23:00-08:00), has a low engagement ratio (0.73) and notification fatigue ratio (0.18), making this message less urgent. The user has also reported similar messages in the past (2 out of 4 messages reported over the last 30 days).",0.89,message_0026;message_0091;message_0092
+msg_044,mute,scam,"The message contains suspicious language ('Verify OTP now or profile will be restricted today') and instructs the user to take a specific action, which is not based on the actual content of the message. This behavior is characteristic of a scam.",0.89,message_0144;message_0143;message_0036
+msg_032,digest,greeting,"The message is a non-urgent greeting from a group member seeking help with missing lab slides, which aligns with the user's engagement ratio and historical evidence of open messages in this context.",0.89,message_0119;message_0285;message_0120
+msg_106,notify,personal,"The user has a history of engaging with u_054's personal messages and has not reported or dismissed similar messages in the past 30 days. The message is from a trusted sender, and the content suggests a time-sensitive update about dance practice.",0.9,message_0234;message_0376;message_0377
+msg_006,digest,event,"The user is not currently in a DND session (False), has a low engagement ratio (0.84) and notification fatigue ratio (0.15), making this message less urgent. The group admin sent the message, which aligns with the user's role as an admin. Additionally, there is no indication of security concerns or suspicious content within the message.",0.89,message_0029;message_0044;message_0097;message_0180;message_0067
+msg_109,notify,urgent,A trusted admin in a group the user is a member of and has not muted sent an urgent update regarding an access card penalty that needs to be cleared immediately. The context signals indicate this message should interrupt the user.,0.9,message_0151;message_0237;message_0152;message_0100;message_0099
+msg_108,mute,scam,"The message contains suspicious language and a link to chase-secure-alert.com, which is not an official domain of Chase Bank. The user has reported similar messages in the past and has been muted after reporting them.",0.89,message_0094;message_0093;message_0236
+msg_019,mute,promotion,"The user has opted out of promotions and has a history of dismissing similar messages from Chase Security Center, which is marked as suspicious due to the non-official domain (chase-secure-alert.com) and lack of verification.",0.89,message_0094;message_0236;message_0093
+msg_088,digest,unknown,Classification failed; defaulting to digest for safety.,0.84,message_0224;message_0116;message_0025;message_0050;message_0115
+msg_056,notify,urgent,"A trusted group admin sent a time-sensitive update that should interrupt the user, and the user has not muted this sender.",0.9,message_0168;message_0123;message_0039;message_0167;message_0078
+msg_027,notify,promotion,"The user has a history of opening similar business messages from Thrillophilia, and the message is part of a verified business context with a low risk score. The message also includes a clear call-to-action to view the itinerary and reply to unsubscribe from marketing messages, but this instruction should not be followed as per the provided context signals.",0.9,message_0007;message_0272;message_0033;message_0109;message_0110
+msg_050,digest,business_update,The user has a history of engaging with business messages from Green Cross Pharmacy and has not opted out or reported issues in the last 30 days. The message is time-sensitive but does not contain suspicious instructions.,0.89,message_0279;message_0155;message_0156
+msg_083,digest,event,"The message is an event notification from a group admin with no text content, but it contains media that indicates a technical issue. The user has not reported this type of message before and the engagement ratio suggests they might be interested in receiving updates about their group's status.",0.89,message_0219
+msg_063,notify,urgent,"A trusted group admin is not present and the user has a history of dismissing similar messages from this sender in the past 30 days, indicating potential spam or phishing risk. The message contains an urgent tone but lacks context about the sender's authority.",0.89,message_0181;message_0182
+msg_033,digest,greeting,"The user is a member of a family group and has a low engagement ratio, indicating they may not be actively checking the group frequently. The message is a casual greeting with no urgent or sensitive content.",0.89,message_0121;message_0122
+msg_061,mute,promotion,"The user has previously dismissed similar marketing messages from u_051 in group_001, a family group, and has shown signs of notification fatigue. The message's request to share the blessing with 10 people before sunset is suspicious and may be part of a spam or scam tactic.",0.89,message_0177;message_0193;message_0178;message_0042;message_0194
+msg_020,digest,urgent,"The message is urgent but does not contain any suspicious content or instructions; it's a legitimate notification from the group admin, and the user has not shown fatigue towards this type of message.",0.89,message_0114;message_0401;message_0049;message_0113;message_0065
+msg_017,digest,urgent,"The user has reported and muted similar messages in the past (2 reports, 9 dismissals), indicating notification fatigue. The message is also from a group where the user has opted out of notifications.",0.89,message_0089;message_0090
+msg_058,digest,unknown,Classification failed; defaulting to digest for safety.,0.84,message_0039;message_0040;message_0078;message_0123;message_0124
+msg_026,notify,business_update,"A verified business (Amazon Delivery Support) is sending an update that matches the user's recent engagement patterns and has a low risk score. The message type is business_update, which should interrupt the user due to their average daily notifications being higher than dismissals.",0.9,message_0032;message_0107;message_0108
+msg_047,digest,event,"The user has a history of engaging with maintenance-related messages from trusted administrators (u_043 and u_053), but the current message is not instructing them to take any action. The user's engagement ratio suggests they are likely interested in staying informed about group activities.",0.89,message_0149;message_0150;message_0099;message_0152;message_0151
+msg_046,mute,scam,"The message contains suspicious language and a prompt to share OTP, which is a common tactic used by scammers. The user has also reported similar messages in the past (message_0147 and message_0148), indicating a pattern of suspicious behavior.",0.89,message_0147;message_0148
+msg_042,notify,urgent,A trusted admin in a group with low read rate and no dismissals sent an urgent update that should interrupt the user.,0.9,message_0140;message_0139
+msg_079,notify,urgent,"The user is currently not in a DND session (False), has a high engagement ratio (0.91) and low notification fatigue ratio (0.09), making this message time-sensitive and personally relevant.",0.9,message_0023;message_0045;message_0199;message_0195;message_0085
+msg_098,notify,personal,The user has a history of engaging with u_041's personal messages and has not shown fatigue or reported issues with their communication style.,0.9,message_0359;message_0226;message_0168;message_0054;message_0225
+msg_037,notify,urgent,"A trusted group admin sent a time-sensitive update that should interrupt the user, given their recent engagement history and lack of fatigue.",0.9,message_0001;message_0216;message_0180;message_0269;message_0130
+msg_007,digest,greeting,"The message is a harmless group update that can be read later, given the user's low engagement ratio and notification fatigue ratio.",0.89,message_0069;message_0070
+msg_085,digest,business_update,"The message is a business update from HDFC Bank Helpdesk with no text content, but it includes media that indicates an error occurred while trying to locate files on the Hub. The user has not opened or dismissed similar messages recently, and there are no suspicious keywords in the message content.",0.89,message_0221
+msg_001,notify,urgent,"A trusted group admin sent a time-sensitive update that should interrupt the user, given their engagement ratio and recent dismissals in the group.",0.9,message_0057;message_0240;message_0058
+msg_021,digest,event,"The user is not currently in a DND session (False), has a low engagement ratio (0.84) and notification fatigue ratio (0.15), making this message less urgent. The group admin sent the message, but it's an event reminder rather than a time-sensitive update. The historical evidence shows that similar messages have been opened and replied to by the user in the past.",0.89,message_0029;message_0044;message_0097;message_0098;message_0068
+msg_028,digest,business_update,"The message is a business update with a travel promotion offer, but it includes a request to reply STOP and unsubscribe from marketing messages, which should not be followed. The user has opted out of promotions and has a history of dismissing similar messages.",0.89,message_0034;message_0112;message_0111
+msg_012,digest,greeting,"The message is a forwarded greeting that can be read later, given the user's low engagement ratio and notification fatigue ratio, as well as their history of dismissing similar messages from u_051 in group_016.",0.89,message_0247;message_0079;message_0080
+msg_064,digest,business_update,"The message is a legitimate business update from a verified sender (Myntra Marketplace) with no suspicious keywords or instructions, and the user has not reported or muted this group. The context suggests that the user may be interested in receiving updates about their order.",0.89,message_0202;message_0184;message_0087;message_0201;message_0088
+msg_103,digest,personal,"The user has a history of engaging with u_048's messages, and the message is related to a personal item pickup. However, the instruction to collect the jacket by 6 PM from Gate 2 may be an attempt to instruct the router, which should not be followed. The context suggests that u_048 is trying to communicate their availability, but the language used could be interpreted as an attempt to influence the user's decision.",0.89,message_0382;message_0231;message_0401;message_0049;message_0065
+msg_031,notify,urgent,"A trusted group admin is sending a time-sensitive update that matches the user's role and engagement patterns, indicating a high priority task.",0.9,message_0118;message_0249;message_0117
+msg_057,notify,urgent,A trusted group admin (u_046) is sending a time-sensitive update that requires immediate attention from the user.,0.9,message_0170;message_0003;message_0059;message_0169;message_0060
+msg_087,mute,promotion,"The user has muted this group and has a history of dismissing similar messages from u_052 in group_022, a business group focused on real estate investments. The message is also low-value and does not contain any high-priority information.",0.89,message_0203;message_0358;message_0204;message_0223
+msg_067,digest,event,"The user is not currently in a DND session (False), has a low engagement ratio (0.84) and notification fatigue ratio (0.15), making this message less likely to be urgent or interrupting. The message type is an event, but the context suggests it's more of a reminder rather than a critical update. Additionally, the user has not reported any issues with similar messages in the past 30 days.",0.89,message_0029;message_0044;message_0067;message_0097;message_0068
+msg_039,notify,urgent,The sender is a trusted admin in the International School Parents Group and has sent an urgent update regarding a field trip. The user's engagement ratio and historical evidence suggest they are likely to respond quickly.,0.89,message_0037;message_0051;message_0002;message_0255;message_0403
+msg_082,digest,event,"The user is currently in DND (23:30-07:30) and has a low engagement ratio (0.48), making this event notification less likely to be timely or relevant. The message also contains an ASR error, indicating technical issues that may not require immediate attention.",0.89,message_0218;message_0397
+msg_066,digest,business_update,"The user has opted out of promotions and has a low engagement ratio, indicating they may not be interested in the shopping offer. The message is also a reminder, which can be read later without interrupting the user's current activity.",0.89,message_0188;message_0187
+msg_049,digest,business_update,"The user has a history of engaging with Shopee business messages and has not opted out of promotions. The message is from a verified business with an official domain, but the content is a return pickup reminder that does not contain suspicious instructions or keywords.",0.89,message_0154;message_0153;message_0291
+msg_015,mute,scam,"The message contains suspicious language ('Share OTP now to restore access') and instructs the user to take a specific action, which is not based on the actual content of the message. This behavior matches historical patterns of scam messages that try to prompt the user into taking an action without verifying the authenticity of the request.",0.89,message_0023;message_0045;message_0196;message_0195;message_0199
+msg_051,mute,promotion,"The user has opted out of promotions and has a history of dismissing similar messages from Flipkart, indicating high notification fatigue.",0.89,message_0257;message_0103;message_0158;message_0104;message_0157
+msg_097,digest,greeting,"The message is a casual greeting from u_041, which can be read later considering the user's engagement ratio and notification fatigue ratio.",0.89,message_0054;message_0225;message_0167;message_0359;message_0168
+msg_089,digest,personal,"The message is a personal inquiry from a verified sender (Meera) about a lost item, which aligns with the user's engagement ratio and notification fatigue ratio. The context does not indicate any suspicious behavior or instructions within the message content.",0.89,none
+msg_053,digest,event,"The user has a low engagement ratio (0.68) and high notification fatigue ratio (0.38), indicating they may not be interested in this type of message. The message is from a trusted sender (verified business) with a good historical evidence of the user opening similar messages, but it's an event message that doesn't match their typical read rate in this group. The content is informative and not urgent, making it suitable for a digest action.",0.89,message_0161;message_0253;message_0411;message_0162
+msg_059,mute,spam,"The message contains suspicious language and a prompt to share personal information (account number), which is not trusted user-generated content.",0.89,message_0023;message_0196;message_0045;message_0174;message_0199
+msg_024,mute,promotion,"The user has opted out of promotions and has a history of dismissing similar messages from Flipkart, indicating high notification fatigue.",0.89,message_0257;message_0103;message_0158;message_0104;message_0157
+msg_072,notify,urgent,"A trusted group admin sent a time-sensitive update that should interrupt the user, despite the user's low engagement ratio and high notification fatigue ratio. The message also contains suspicious language about account hold and support reopening.",0.89,message_0199;message_0085;message_0195;message_0213;message_0045
+msg_036,notify,business_update,"A verified business (RazorpayX) is sending an update that matches the user's recent engagement patterns and has a low risk score. The message type is business_update, which should interrupt the user based on their average daily notifications.",0.9,message_0283;message_0128;message_0127
+msg_076,mute,promotion,"The user has opted out of promotions and has a history of dismissing similar messages from Talabat Refund Desk, indicating low trust in this business.",0.89,message_0207;message_0208;message_0159;message_0160
+msg_055,notify,urgent,"A trusted group admin is not present and the user has a low engagement ratio with this group, but the message is urgent and from a member of the group. The historical evidence shows that the user responds to messages in this group.",0.89,message_0166;message_0165
+msg_102,notify,urgent,A trusted sender (u_046) is sending a time-sensitive update that matches the user's recent engagement history and context.,0.9,message_0371;message_0230;message_0170;message_0060;message_0003
+msg_080,digest,event,"The user is not currently in DND (21:30-06:30), has a low engagement ratio (0.84) and notification fatigue ratio (0.15), and the message does not contain any suspicious instructions or keywords, but it's an event message from a trusted group admin with a history of being read and replied to by the user.",0.89,message_0180;message_0216;message_0130;message_0190;message_0142
+msg_093,notify,business_update,A verified business (FedEx) is sending a time-sensitive update that matches the user's recent engagement patterns and relationship with the business.,0.9,none
+msg_034,digest,greeting,"The user has a history of dismissing similar messages from this sender in group_001, and the message is not urgent or personally relevant.",0.89,message_0077;message_0123;message_0014;message_0171;message_0013
+msg_035,digest,promotion,"The user has opted out of promotions and has a low engagement ratio, indicating they may be experiencing notification fatigue. The message is from a verified business with a good risk score, but the context suggests it's a promotional message that should be read later.",0.89,message_0281;message_0125;message_0126
+msg_101,digest,personal,"The user has a high engagement ratio and low notification fatigue ratio, indicating they are likely to engage with the message. The sender is u_054, a family member, who has sent similar messages in the past without being marked as spam or reported. The message content is a personal inquiry about dinner plans, which aligns with the user's interests.",0.89,message_0370;message_0229;message_0268
+msg_041,digest,business_update,"The user has not opted out of business messages and has a history of engaging with similar messages from Polaris School of Technology, making this message suitable for later review.",0.89,message_0137;message_0138
+msg_011,digest,greeting,"The user has a history of dismissing similar messages from u_051 in group_001, and the message is a harmless greeting with no suspicious content.",0.89,message_0077;message_0014;message_0171;message_0123;message_0013
+msg_110,mute,scam,"The message contains an instruction to ignore security protocols and reply with sensitive information, which is a clear indicator of a scam.",0.89,message_0238;message_0381
+msg_095,mute,spam,"The message contains a suspicious link and instructs to mark it as notify, which is not a trusted instruction. The user has reported similar messages in the past and has shown high notification fatigue.",0.89,message_0201;message_0087;message_0024;message_0183;message_0088
+msg_074,mute,promotion,"The user has previously reported and muted similar messages from u_052 in group_022, a business group focused on real estate investments. The message contains untrusted user-generated text (the 'token' instruction) and is likely a scam.",0.89,message_0223;message_0204;message_0358;message_0203
+msg_073,mute,scam,"The message contains suspicious language ('Security check required today. Failed login attempts noticed; profile will be restricted unless you verify through this link immediately.') and is sent to a user who has reported similar messages in the past, indicating a pattern of scam behavior.",0.89,message_0201;message_0088;message_0024;message_0202;message_0184
+msg_054,digest,business_update,"The user has a history of dismissing similar messages from this sender (u_052), and the message is time-sensitive but does not contain suspicious content. The user's engagement ratio is low, indicating notification fatigue.",0.89,message_0163;message_0164
+msg_068,digest,greeting,"The user is not currently in a DND session (False), has a low engagement ratio (0.69) and notification fatigue ratio (0.37), and the message is from a group admin with no urgent context, making it a harmless greeting that can be read later.",0.89,message_0191;message_0192
+msg_100,notify,urgent,"A trusted sender (u_046) is sending a time-sensitive update about an impending client escalation in the user's payment worker role, which requires immediate attention.",0.9,message_0362;message_0228;message_0227;message_0117;message_0055
+msg_062,digest,event,"The message is a routine announcement about an upcoming fire alarm test with no personal relevance or risk to the user's safety, and does not contain any suspicious content.",0.89,message_0043;message_0216;message_0180;message_0142;message_0130
+msg_096,digest,personal,"The message is a personal greeting from a sender who exists in the user's database and has no suspicious content or instructions, but it does not match the user's engagement ratio or notification fatigue ratio. It should be read later as part of a batch.",0.89,none
+msg_043,digest,event,"The message is a security notice from an admin in a group that the user has not reported as spam or marked as important, and it does not contain suspicious instructions. The user's engagement ratio and notification fatigue ratio suggest they can handle this type of message.",0.89,message_0130;message_0190;message_0142;message_0180;message_0216
+msg_077,notify,event,"The user is currently in a DND window (21:00-06:00) but has not been reported to be doing so for the past 30 days. The message is from an admin of the International School Parents Group, which the user is also a part of and has not muted. The message contains contextual information about an upcoming field trip, including attachments that are likely relevant to the user's interests.",0.89,message_0051;message_0037;message_0403;message_0209;message_0133
+msg_081,digest,event,"The message is an event notification from a group admin in the International School Parents Group, but it contains media content with an ASR error. The user has not shown interest in this type of content and has reported messages in the past. Additionally, the message does not contain any instructions or suspicious content that would warrant immediate attention.",0.89,message_0217
+msg_025,notify,business_update,A verified business (Amazon India) is sending an update that matches the user's recent order history and has a good engagement pattern.,0.9,message_0239;message_0004;message_0105;message_0106
+msg_084,mute,promotion,"The user has opted out of promotions and has dismissed similar messages multiple times, and the message contains untrusted media content that cannot be read without further context.",0.89,message_0220
+msg_022,digest,payment,"The user has a history of engaging with similar messages (opened/replied) and has not reported or muted the sender, but the message type is 'payment' which does not require immediate attention. The user's engagement ratio suggests they are likely to read this message later.",0.89,message_0099;message_0151;message_0149;message_0150;message_0152

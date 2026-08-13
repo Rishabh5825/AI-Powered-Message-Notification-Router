@@ -1,0 +1,13 @@
+# Core
+ollama>=0.4.0
+chromadb>=0.5.0
+
+# Multimodal — OCR
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Multimodal — ASR
+faster-whisper>=1.0.0
+
+# Utilities
+python-dotenv>=1.0.0
